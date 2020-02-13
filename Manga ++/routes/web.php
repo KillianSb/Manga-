@@ -27,10 +27,10 @@ Route::resource('contacts', 'ContactController');
 
 Route::resource('livres', 'LivreController');
 
-Route::get('/categories', 'CategoryController@index')->name('category.index');
-Route::get('/categories/{id}/show', 'CategoryController@show')->name('category.show');
-Route::get('/categories/create', 'CategoryController@create')->name('category.create');
-Route::post('/categories/store', 'CategoryController@store')->name('category.store');
-Route::get('/categories/{id}/edit', 'CategoryController@edit')->name('category.edit');
-Route::put('/categories/{id}/update', 'CategoryController@update')->name('category.update');
-Route::get('/categories/{id}/delete', 'CategoryController@delete')->name('category.delete');
+// Route::get('/categories', 'CategoryController@index')->name('category.index');
+// Route::get('/categories/{id}/show', 'CategoryController@show')->name('category.show');
+// Route::get('/categories/create', 'CategoryController@create')->name('category.create');
+// Route::post('/categories/store', 'CategoryController@store')->name('category.store');
+// Route::get('/categories/{id}/edit', 'CategoryController@edit')->name('category.edit');
+// Route::put('/categories/{id}/update', 'CategoryController@update')->name('category.update');
+// Route::get('/categories/{id}/delete', 'CategoryController@delete')->name('category.delete');

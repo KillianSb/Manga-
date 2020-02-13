@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -22,6 +21,16 @@
                 <div class="top-right links">
                     @auth
 
+                    <a href="{{ url('/logout') }}"
+                        onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                        Déconnecter
+                    </a>
+
+                    <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                        {{ csrf_field() }}
+                    </form>
+
                     @else
                         <a href="{{ route('login') }}">Connecter</a>
 
@@ -40,8 +49,8 @@
                 <div class="links">
                     <a href="{{ route('contacts.index') }}" class="btn btn-primary">Contacts</a>
                     <a href="{{ route('livres.index') }}" class="btn btn-primary">Livres</a>
+               </div>
             </div>
-
         </div>
     </body>
 </html>
