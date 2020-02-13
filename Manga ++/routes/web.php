@@ -17,13 +17,15 @@ Auth::routes();
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('recherche', 'PagesController@recherche');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
 
 Route::resource('contacts', 'ContactController');
+
+Route::resource('livres', 'LivreController');
 
 Route::get('/categories', 'CategoryController@index')->name('category.index');
 Route::get('/categories/{id}/show', 'CategoryController@show')->name('category.show');

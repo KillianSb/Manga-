@@ -39,10 +39,7 @@
 
                 <div class="links">
                     <a href="{{ route('contacts.index') }}" class="btn btn-primary">Contacts</a>
-            </div>
-
-            <div class="Catègories">
-                <h2> <a href="{{ route('category.index') }}" > Catègories </h2>
+                    <a href="{{ route('livres.index') }}" class="btn btn-primary">Livres</a>
             </div>
 
         </div>
