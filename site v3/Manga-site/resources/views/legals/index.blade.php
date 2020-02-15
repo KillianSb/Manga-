@@ -28,14 +28,10 @@
 	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="#home" class="navbar-brand smoothScroll"><strong>MANGA++</strong></a>
+				<a href="{{ route('home') }}" class="navbar-brand smoothScroll"><strong>MANGA++</strong></a>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home" class="smoothScroll">ACCUEIL</a></li>
-					<li><a href="#about" class="smoothScroll">A PROPOS</a></li>
-					<li><a href="#gallery" class="smoothScroll">GALERIE</a></li>
-					<li><a href="#contact" class="smoothScroll">NOUS CONTACTER</a></li>
 					@if (Route::has('login'))
                     @auth
                     	<li>
