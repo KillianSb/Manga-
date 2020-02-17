@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html class="login_page_html">
-<head>
-    <!-- custom -->
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <!-- Google font -->
-    <link href='//fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
-</head>
-
 <body class="login_page" style="background-image: url('../public/images/back.jpg');">
 @extends('layouts.app')
+<link rel="stylesheet" href="css/templatemo-style.css">
+
 @section('content')
 <div class="container">
     <!-- Header -->
-    <header class="header_auth">
-        <a href="{{ route('home')}}" class="header_auth">MANGA++</a>
-        <a href="{{ route('home')}}" class="return">Retour à l'accueil</a>
-    </header>
+    <header></header>
     <!-- End Header -->
 
     <div class="row justify-content-center">
@@ -88,14 +77,5 @@
         </div>
     </div>
 </div>
-<!-- Start footer -->
-    <footer class="login_page_footer">
-        <div class="login_footer_container">
-            <p>Copyright &copy; 2020 Manga++</p>
-            <a href="#" class="legal_notice">Mentions légales</a>
-        </div>
-    </footer>
-<!-- End footer -->
 @endsection
 </body>
-</html>

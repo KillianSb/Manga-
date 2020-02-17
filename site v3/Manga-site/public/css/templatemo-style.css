@@ -512,14 +512,6 @@ footer a.legal_notice{
 
 /*Sign in page*/
 
-html.login_page_html{
-  height: 97.8%;
-}
-
-body.login_page{
-  min-height: 100%;
-  position: relative;
-}
 /*Background image in sign in page*/
 body.login_page{
   background-size: 100%;
@@ -578,89 +570,7 @@ body.login_page a.btn.btn-primary{
  text-decoration: none;
 }
 
-/*Login page header*/
-
-body.login_page header{
-  height: 65px;
-  width: 101.2%;
-  background-color: white;
-  position: absolute;
-  margin-top: -10px;
-  margin-left: -10px;
-  box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
-}
-
-body.login_page header a.header_auth{
-  text-decoration: none;
-  color: #FFA400;
-  font-size: 40px;
-  font-weight: 700;
-  position: absolute;
-  left: 277px;
-  top: 9px;
-}
-
-body.login_page header a.return{
-  text-decoration: none;
-  color: #ffa400;
-  font-family: 'Chewy', cursive;
-  font-weight: 400;
-  top: 16px;
-  line-height: 35px;
-  font-size: 20px;
-  position: absolute;
-  right: 150px;
-}
-
-body.login_page header a.header_auth:hover,
-body.login_page header a.header_auth:focus{
-  color: #545454;
-}
-
-body.login_page header a.return:hover,
-body.login_page header a.return:focus{
-  color: #000;
-}
-
-/*Login page footer*/
-
-body.login_page footer.login_page_footer{
-  height: 65px;
-  width: 101%;
-  box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
-  padding-top: 0px;
-  padding-bottom: 0px;
-  position: absolute;
-  bottom: -6px;
-  left: -7px;
-  border-bottom: none;
-}
-
-body.login_page footer.login_page_footer p{
-  margin-top: 18px;
-  margin-bottom: 18px;
-  left: 100px;
-  position: absolute;
-}
-
-body.login_page footer.login_page_footer a{
-  margin-top: 18px;
-  margin-bottom: 18px;
-  right: 100px;
-  position: absolute;
-  text-decoration: none;
-}
-
 /*Sign up page*/
-
-html.register_page_html{
-  height: 97.8%;
-}
-
-body.register_page{
-  min-height: 100%;
-  position: relative;
-}
 
 body.register_page{
     background-size: 100%;
@@ -690,78 +600,14 @@ body.register_page div.container div.card{
   background-color: #fcfcfc;
 }
 
-/*Register page header*/
-
-body.register_page header{
-  height: 65px;
-  width: 101.2%;
-  background-color: white;
-  position: absolute;
-  margin-top: -10px;
-  margin-left: -10px;
-  box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
+a.return{
+    position: absolute;
+    left: 85%;
+    top: 20px;
+    text-decoration: none;
 }
 
-body.register_page header a.header_auth{
-  text-decoration: none;
-  color: #FFA400;
-  font-size: 40px;
-  font-weight: 700;
-  position: absolute;
-  left: 277px;
-  top: 9px;
-}
 
-body.register_page header a.return{
-  text-decoration: none;
-  color: #ffa400;
-  font-family: 'Chewy', cursive;
-  font-weight: 400;
-  top: 16px;
-  line-height: 35px;
-  font-size: 20px;
-  position: absolute;
-  right: 150px;
-}
-
-body.register_page header a.header_auth:hover,
-body.register_page header a.header_auth:focus{
-  color: #545454;
-}
-
-body.register_page header a.return:hover,
-body.register_page header a.return:focus{
-  color: #000;
-}
-
-/*register page footer*/
-
-body.register_page footer.register_page_footer{
-  height: 65px;
-  width: 101%;
-  box-shadow: 0px 1px 11px rgba(0,0,0,0.4);
-  padding-top: 0px;
-  padding-bottom: 0px;
-  position: absolute;
-  bottom: -6px;
-  left: -7px;
-  border-bottom: none;
-}
-
-body.register_page footer.register_page_footer p{
-  margin-top: 18px;
-  margin-bottom: 18px;
-  left: 100px;
-  position: absolute;
-}
-
-body.register_page footer.register_page_footer a{
-  margin-top: 18px;
-  margin-bottom: 18px;
-  right: 100px;
-  position: absolute;
-  text-decoration: none;
-}
 
 /********************************
 IPAD LANDSCAPE (1024x768)

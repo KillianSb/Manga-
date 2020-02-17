@@ -13,6 +13,8 @@
 
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!-- custom -->
 	<link rel="stylesheet" href="css/templatemo-style.css">
 	<!-- google font -->
@@ -129,7 +131,7 @@
 							<h5>Cras in ante mattis, elementum nunc sed.</h5>
 						</div>
 					</div>
-				</div>	
+				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="gallery-wrapper">
 						<img src="images/naruto_n1.jpg" class="img-responsive gallery-img" alt="Manga 2">
@@ -147,7 +149,7 @@
 							<h5>Maecenas efficitur nisi id sapien</h5>
 						</div>
 					</div>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</section>
@@ -182,17 +184,17 @@
 					<h3 class="padding-bottom-10 text-uppercase">La librairie</h3>
 					<p><i class="fa fa-map-marker contact-fa"></i>Centre Pierre Cointreau CCI, 132 Avenue de Lattre de Tassigny, 49000 Angers</p>
 					<p>
-						<i class="fa fa-phone contact-fa"></i> 
-						<a href="tel:0241666766" class="contact-link">02 41 66 67 66</a> 
-					</p>			
-					<p><i class="fa fa-envelope-o contact-fa"></i> 
+						<i class="fa fa-phone contact-fa"></i>
+						<a href="tel:010-020-0340" class="contact-link">02 41 66 67 66</a>
+					</p>
+					<p><i class="fa fa-envelope-o contact-fa"></i>
                     	<a href="mailto:philippe.riffi@students.campus.academy" class="contact-link">philippe.riffi@students.campus.academy</a></p>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<h3 class="text-uppercase">HORAIRES</h3>
 					<p><i class="fa fa-clock-o contact-fa"></i> 9:00  - 18:30 </p>
 					<p><i class="fa fa-bell-o contact-fa"></i> Du Lundi au Samedi</p>
-                    
+
 			  	</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="google_map">
@@ -211,7 +213,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>Copyright &copy; 2020 Manga++</p>
-                    <a href="*" class="legal_notice">Mentions légales</a>
+                    <a href="{{ route('legal') }}" class="legal_notice">Mentions légales</a>
                 </div>
             </div>
         </div>

@@ -1,25 +1,14 @@
-<!DOCTYPE html>
-<html class="register_page_html">
-<head>
-    <!-- custom -->
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <!-- Google font -->
-    <link href='//fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
-</head>
-
 <body class="register_page" style="background-image: url('../public/images/bleach.jpg');">
 
 @extends('layouts.app')
 <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
 @section('content')
 <div class="container">
-     <!-- Header -->
-    <header class="header_auth">
-        <a href="{{ route('home')}}" class="header_auth">MANGA++</a>
-        <a href="{{ route('home')}}" class="return">Retour à l'accueil</a>
-    </header>
-    <!-- End Header -->
+    <div>
+        <span>
+            <a href="{{ route('home')}}" class="return">Retour home</a>
+        </span>
+    </div>
     
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -94,14 +83,5 @@
         </div>
     </div>
 </div>
-<!-- Start footer -->
-    <footer class="register_page_footer">
-        <div class="register_footer_container">
-            <p>Copyright &copy; 2020 Manga++</p>
-            <a href="#" class="legal_notice">Mentions légales</a>
-        </div>
-    </footer>
-<!-- End footer -->
 @endsection
 </body>
-</html>
