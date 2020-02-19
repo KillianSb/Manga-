@@ -1,4 +1,0 @@
-cree un user (s'enregistrer) puis une fois cree passer part le cmd en fessant "$ php artisan tinker"
- puis ">>> use App \ User; " 
-puis ">>> Utilisateur ::where('email', 'adresse mail du compte enregistrer') -> update (['type' => 'admin']);".
-
