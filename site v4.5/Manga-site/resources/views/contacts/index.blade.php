@@ -22,7 +22,7 @@
 
         <div>
         <span>
-        <a style="margin: 19px;" href="{{ route('home')}}" class="btn btn-primary">Retour à l'accueil</a>
+        <a style="margin: 19px;" href="{{ route('admin')}}" class="btn btn-primary">Retour à l'accueil</a>
         </span>
         </div>
     </thead>

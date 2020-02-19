@@ -18,8 +18,8 @@
   <div class="col-sm-12">
     <!-- Header -->
     <header class="header_auth">
-        <a href="{{ route('home')}}" class="header_auth">MANGA++</a>
-        <a href="{{ route('home')}}" class="return">Retour à l'accueil</a>
+        <a href="{{ route('admin')}}" class="header_auth">MANGA++</a>
+        <a href="{{ route('admin')}}" class="return">Retour à l'accueil</a>
     </header>
     <!-- End Header -->
     <h1 class="display-3">Livres</h1>

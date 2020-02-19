@@ -23,7 +23,7 @@
 
         <div>
         <span>
-        <a href="{{ route('home')}}" class="btn btn-primary">Retour à l'accueil</a>
+        <a href="{{ route('admin')}}" class="btn btn-primary">Retour à l'accueil</a>
         </span>
         </div>
     </thead>
